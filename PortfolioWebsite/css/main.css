@@ -1,0 +1,228 @@
+#html, body {
+  margin: 0;
+  padding: 0;
+  /*height: 2500px;*/
+}
+
+.header {
+  background-color: #333333;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.jumbotron {
+  height: 800px;
+  background-image: url("../img/wood-bg.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+  
+}
+
+/*  navbar  */
+.nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.nav li {
+  color: #fff;
+  background-color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+
+
+/*  Heading  */
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 120px;
+  margin: 0 250px 10px 0;
+}
+
+.main h2 {
+	color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 10;
+	font-size: 32px;
+	margin: 20px 100px 0 0;
+}
+
+.btn-main {
+  color: #FFF;
+  background-color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*  Button in the skills area  */
+.btn-default {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;
+  margin-bottom: 20px; 
+  border: 1px solid #333333;
+  color: #333333;
+}
+
+.btn-default:hover {
+	border: 1.5px solid #000;
+	color: #333;
+	font-size: 12px;
+}
+
+.btn-default a:active {
+	position: relative;
+	top: 2px;
+}
+
+/*  Skills Section  */
+.skills {
+  height: 500px;
+  width: auto;
+  padding: 80px 0 20px 0;
+}
+
+.skills .col {
+  float: left;
+  width: 20%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.skills img {
+  height: 120px;
+  margin: 80px 0 0 0;
+}
+
+.skills h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+  text-align: center;
+  margin: -30px 0 30px 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 20px 0 0 0;
+}
+
+.skills h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.skills p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+/*  Portfolio Section  */
+.portfolio {
+  height: 500px;
+  width: auto;
+  background-color: #FAFAFA;
+  padding: 80px 0 0 0;
+}
+
+.portfolio .col {
+  float: left;
+  width: 33.33333%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+  text-align: center;
+  margin: 30px 0 30px 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.portfolio p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+/*  Contact Section  */
+.contact {
+  height: 600px;
+  background: url("../img/contact.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+
+.contact h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  text-align: center;
+  margin: -30px 0 30px 0;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+/*  Footer Section  */
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/*  This adjusts for screens with a max-width of less than 500px  */
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  

@@ -1,0 +1,170 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+/*  All buttons  */
+
+.btn {
+  background-color: #000;
+  border: 1px solid #0393FF;
+  color: #0393FF;
+  border-radius: 2px;
+  padding: 6px 16px !important;
+}
+
+.btn:hover {
+  background-color: #0393FF;
+  color: #FFF;
+  border: 1px solid #0393FF;
+  cursor: pointer;
+}
+
+/*  Jumbotron  */
+
+.jumbotron {
+  background-color: #000;
+  margin: 0;
+}
+
+.jumbotron .header {
+  color: #FFF;
+}
+
+.jumbotron img {
+  height: 36px;
+  width: auto;
+}
+
+.jumbotron li {
+  display: inline;
+  margin-right: 30px;
+}
+
+#log-in:hover {
+  color: #0393FF;
+  cursor: pointer;
+}
+
+/*  Main  */
+
+.main {
+  text-align: center;
+  color: #FFF;
+  margin-top: 80px;
+}
+
+.main .btn-default {
+  margin: 40px 0;
+}
+
+#search {
+  width: 400px;
+  height: auto;
+  background: #000;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #FFF;
+  box-shadow: none;
+  font-size: 18px;
+  margin: 40px 20px 20px 20px;
+}
+
+#search:hover {
+  border: none;
+  border-bottom: 1px solid #0393FF;
+}
+
+.btn-submit {
+  margin-bottom: -25px;
+}
+
+/*  Supporting  */
+
+.supporting {
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png");
+  background-size: 141px 142px;
+  padding-bottom: 60px;
+}
+
+.supporting h2 {
+  color: #0393FF;
+  margin-top: 80px;
+}
+
+.supporting p {
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+/*  Feature  */
+
+.feature {
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15% 0;
+}
+
+.feature h2 {
+  color: #0393FF;
+}
+
+.feature p {
+  color: #FFF;
+}
+
+.thumbnail {
+  background: inherit;
+  border: none;
+}
+
+/*  Footer  */
+
+.footer {
+  background-color: #000;
+  padding: 60px 0;
+}
+
+.footer h4 {
+  color: #FFF;
+  margin-top: 20px;
+}
+
+.footer li {
+  color: #0393FF;
+  list-style: none;
+  margin-left: -40px;
+}
+
+.footer li:hover {
+  color: #FFF;
+  cursor: pointer;
+}
+
+/*  Constraints  */
+
+@media only screen and (min-width: 2000px) {
+  #search {
+    margin: 40px 20px 60px 20px;
+  }
+  .btn-submit {
+  margin-bottom: 14px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .feature {
+    padding: 6.85% 0;
+  }
+}
+
