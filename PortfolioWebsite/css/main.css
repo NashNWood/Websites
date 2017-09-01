@@ -6,6 +6,9 @@
 
 .header {
   background-color: #333333;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
 }
 
 .container {
@@ -14,7 +17,7 @@
 }
 
 .jumbotron {
-  height: 800px;
+  height: 1260px;
   background-image: url("../img/wood-bg.jpg");
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -43,11 +46,14 @@
   padding: 0px 10px;
 }
 
+.nav a {
+  text-decoration: none;
+}
 
 /*  Heading  */
 .main {
   position: relative;
-  top: 180px;
+  top: 440px;
   text-align: center;
 }
 
@@ -105,8 +111,9 @@
 }
 
 /*  Skills Section  */
+
 .skills {
-  height: 500px;
+  height: 600px;
   width: auto;
   padding: 80px 0 20px 0;
 }
@@ -120,7 +127,7 @@
 
 .skills img {
   height: 120px;
-  margin: 80px 0 0 0;
+  margin: 120px 0 0 0;
 }
 
 .skills h1 {
@@ -149,7 +156,7 @@
 
 /*  Portfolio Section  */
 .portfolio {
-  height: 500px;
+  height: 600px;
   width: auto;
   background-color: #FAFAFA;
   padding: 80px 0 0 0;
@@ -172,6 +179,13 @@
   margin: 20px 0;
 }
 
+.portfolio img {
+  height: 240px;
+  width: 360px;
+  border-radius: 10px;
+  margin: 40px 0 0 0;
+}
+
 .portfolio p {
   font-weight: 400;
   font-size: 14px;
@@ -180,25 +194,85 @@
   margin-bottom: 40px;
 }
 
+/* About Section  */
+
+.about {
+  height: 600px;
+  width: auto;
+  background-color: #FFF;
+  padding: 80px 0 0 0;
+}
+
+.about .col {
+  float: left;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+}
+
+#portrait {
+  height: 400px;
+  width:360px;
+  border-radius: 100px;
+  margin: 40px 140px 0 0;
+
+}
+
+.about h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+  text-align: center !important;
+  margin: 30px 0 30px 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.about p {
+  width: 600px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 50px;
+  margin: 120px 0 0 100px;
+  text-align: left !important;
+}
+
 /*  Contact Section  */
 .contact {
   height: 600px;
-  background: url("../img/contact.jpg");
+  background: url("../img/contact_banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 20% 25%;
   text-align: center;
-  padding: 60px 0 0 0;
+  padding: 80px 0 0 0;
 }
 
 .contact h1 {
   font-family: 'Raleway', sans-serif;
-  color: #FFF;
+  color: #333;
   text-align: center;
-  margin: -30px 0 30px 0;
+  margin: 20px 0 200px 0;
   text-transform: uppercase;
   font-size: 40px;
+}
+
+.contact img {
+  height: 80px;
+  width: 80px;
+  padding: 40px 10px 20px 10px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact p {
+  color: #333;
+  font-size: 20px;
 }
 
 /*  Footer Section  */
@@ -209,7 +283,7 @@
 .footer {
   background-color: #333;
   color: #fff;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .footer p {
